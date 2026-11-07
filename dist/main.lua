@@ -14,6 +14,7 @@
     License: MIT
 ]]
 
+-- Stylish UI refresh: modern midnight-indigo palette; public functions and structure preserved.
 type ConfigType__DARKLUA_TYPE_a={
 Object:Instance,
 Camera:Instance?,
@@ -24756,9 +24757,9 @@ WindowSearchBarBackground="Dialog",
 
 TabBackground="Hover",
 TabBackgroundHover="Hover",
-TabBackgroundHoverTransparency=0.97,
+TabBackgroundHoverTransparency=0.94,
 TabBackgroundActive="Hover",
-TabBackgroundActiveTransparency=0.93,
+TabBackgroundActiveTransparency=0.88,
 TabText="Text",
 TabTextTransparency=0.3,
 TabTextTransparencyActive=0,
@@ -24771,8 +24772,8 @@ TabBorderTransparencyActive=0.75,
 TabBorder="White",
 
 ElementBackground="Text",
-ElementBackgroundTransparency=0.93,
-ElementBackgroundHover=b:AddColor("ElementBackground","#ffffff",0.1),
+ElementBackgroundTransparency=0.90,
+ElementBackgroundHover=b:AddColor("ElementBackground","#ffffff",0.14),
 ElementTitle="Text",
 ElementDesc="Text",
 ElementIcon="Icon",
@@ -28269,29 +28270,29 @@ return{
 Dark={
 Name="Dark",
 
-Accent=Color3.fromHex"#18181b",
-Dialog=Color3.fromHex"#1a1a1a",
-Outline=Color3.fromHex"#FFFFFF",
-Text=Color3.fromHex"#FFFFFF",
-Placeholder=Color3.fromHex"#a1a1a1",
-Background=Color3.fromHex"#101010",
-Button=Color3.fromHex"#52525b",
-Icon=Color3.fromHex"#a1a1aa",
-Toggle=Color3.fromHex"#33C759",
-Slider=Color3.fromHex"#0091FF",
-Checkbox=Color3.fromHex"#0091FF",
+Accent=Color3.fromHex"#151A2D",
+Dialog=Color3.fromHex"#1B2138",
+Outline=Color3.fromHex"#7C8DB5",
+Text=Color3.fromHex"#F7F9FF",
+Placeholder=Color3.fromHex"#98A2C3",
+Background=Color3.fromHex"#0B1020",
+Button=Color3.fromHex"#5865F2",
+Icon=Color3.fromHex"#B9C2E3",
+Toggle=Color3.fromHex"#34D399",
+Slider=Color3.fromHex"#7C8CFF",
+Checkbox=Color3.fromHex"#7C8CFF",
 
-PanelBackground=Color3.fromHex"#FFFFFF",
-PanelBackgroundTransparency=0.95,
+PanelBackground=Color3.fromHex"#AAB7FF",
+PanelBackgroundTransparency=0.94,
 
-SliderIcon=Color3.fromHex"#908F95",
-Primary=Color3.fromHex"#0091FF",
+SliderIcon=Color3.fromHex"#AEB8D8",
+Primary=Color3.fromHex"#7C8CFF",
 
 
-LabelBackground=Color3.fromHex"#000000",
-LabelBackgroundTransparency=0.83,
+LabelBackground=Color3.fromHex"#11172A",
+LabelBackgroundTransparency=0.72,
 
-ElementBackground=Color3.fromHex"#2A2A2C",
+ElementBackground=Color3.fromHex"#202842",
 ElementBackgroundTransparency=0,
 },
 
